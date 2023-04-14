@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -26,3 +27,85 @@ body {
     border: white 0.3rem solid;
     
 }
+.circle{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.circle1{
+    background-color: #fe8888;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.circle2{
+    background-color: #FFDE59;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 250px;
+    z-index: 1;
+}
+
+.circle3{
+    background-color: #fe8888;
+    width: 80px;
+    height: 80px;
+    top: 50px;
+    left: 550px;
+    z-index: 1;
+}
+
+.circle4{
+    background-color: #fe8888;
+    width: 80px;
+    height: 80px;
+    bottom: 400px;
+    left: 20px;
+    z-index: 1;
+}
+
+#figure1{
+        position: absolute;
+        z-index: 1;
+        left: 300px;
+        bottom: 0px;
+        width:150px
+    }
+    #figure2{
+        position: absolute;
+        bottom: 0px;
+        width:300px;
+        z-index: 1;
+    }
+
+    .triangle{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-style: solid;
+        border-width: 0 0 0 250px;
+        height: 0;
+        z-index: 1;
+    }
+
+    .triangle-big {
+        width: 0;
+        height: 0;
+        border-bottom: 400px solid #008037;
+        border-left: 200px solid transparent;
+        border-right:200px solid transparent;
+        right: calc(50%-250px);
+    }
+
+    .triangle-small {
+        width: 0;
+        height: 0;
+        border-bottom: 200px solid #C9E265;
+        border-left: 100px solid transparent;
+        border-right:100px solid transparent;
+    }
