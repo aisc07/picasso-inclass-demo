@@ -79,7 +79,7 @@ body {
 }
 
 .circle6{
-    background-color: #;
+    background-color:#fe8888;
     width: 250px;
     height: 250px;
     top: 500px;
@@ -129,6 +129,12 @@ body {
         border-right:300px solid transparent;
         
     }
+
+.visitor_link{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
 .visitor_body{
     background-color:#00989D;
     color: #FFDE59;
@@ -166,3 +172,46 @@ body {
     background-color: #fe8888;
     font-size: large;
 }
+
+.vcircle{
+    position: absolute;
+    border-radius: 50%;
+}
+.vcircle1{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-color:#FFDE59;
+left: 500px;
+top: 150px;
+z-index: 1;
+}
+
+.vcircle2{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color:#fe8888;
+    left: 400px;
+    top: 50px;
+    z-index: 1;
+    }
+
+.vcircle3{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color:#fe8888;
+    left: 350px;
+    top: 450px;
+    z-index: 1;
+    }
+.vcircle4{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color:#FFDE59;
+    left: 50px;
+    top: 400px;
+    z-index: 1;
+    }
